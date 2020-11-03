@@ -1,0 +1,175 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 12%;
+}
+
+.big-heading {
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+
+.download-btn {
+  margin: 5% 3%;
+}
+
+/* Top section */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 7% 10%;
+}
+
+.main-img {
+  width: 60%;
+  padding: 2%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+#title .download-btn {
+  margin: 15% 3% 15% 0;
+}
+
+/* Features section */
+
+#features {
+  position: relative;
+  background-color: white;
+}
+
+.icon {
+  color: #ef8172;
+  padding: 3% 7%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.middle-row p {
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  padding: 3% 7%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 2% 3%;
+}
+
+
+/* Pricing Section */
+
+
+.pricing-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 2% 1%;
+}
+
+.plan-name {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.card-title {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Media Query breakpoints */
+
+@media (max-width: 1025px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    text-align: right;
+  }
+
+  .main-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* cta section */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+/* footer section */
+
+.footer-icon {
+  margin: 5% 1% 2% 1%;
+}
