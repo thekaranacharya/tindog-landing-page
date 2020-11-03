@@ -38,7 +38,7 @@ body {
 }
 
 #title .container-fluid {
-  padding: 3% 10% 7% 10%;
+  padding: 3% 10% 13% 10%;
 }
 
 .main-img {
@@ -50,7 +50,7 @@ body {
 }
 
 #title .download-btn {
-  margin: 15% 3% 5% 0;
+  margin: 15% 3% 0 0;
 }
 
 /* Features section */
