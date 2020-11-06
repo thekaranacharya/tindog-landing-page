@@ -1,7 +1,11 @@
+/* HTML elements */
+
 body {
   font-family: 'Montserrat';
   text-align: center;
 }
+
+/* Section non-specific elements */
 
 .container-fluid {
   padding: 7% 12%;
@@ -22,6 +26,7 @@ body {
   background-color: white;
 }
 
+/* Sections */
 /* Navigation Bar */
 
 .navbar {
@@ -145,6 +150,12 @@ body {
   line-height: 1.5;
 }
 
+/* footer section */
+
+.footer-icon {
+  margin: 5% 1% 2% 1%;
+}
+
 /* Media Query breakpoints */
 
 @media (max-width: 1025px) {
@@ -161,11 +172,4 @@ body {
     position: static;
     transform: rotate(0);
   }
-}
-
-
-/* footer section */
-
-.footer-icon {
-  margin: 5% 1% 2% 1%;
 }
