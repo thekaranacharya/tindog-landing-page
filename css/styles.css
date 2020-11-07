@@ -45,14 +45,18 @@ body {
 
 /* Top section */
 
-#title .container-fluid {
+#title {
   text-align: left;
-  padding: 3% 10% 13% 10%;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 15% 10%;
 }
 
 .main-img {
   width: 60%;
   padding: 2%;
+  margin-top: 5%;
   transform: rotate(25deg);
   position: absolute;
   right: 20%;
@@ -122,7 +126,6 @@ body {
 
 /* Pricing Section */
 
-
 .pricing-title {
   font-weight: 900;
   font-size: 2.5rem;
@@ -139,6 +142,7 @@ body {
 }
 
 .plan-name {
+  color: #ef8172;
   font-weight: 900;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -153,23 +157,36 @@ body {
 /* footer section */
 
 .footer-icon {
-  margin: 5% 1% 2% 1%;
+  margin: 2% 1% 2% 1%;
 }
 
 /* Media Query breakpoints */
 
-@media (max-width: 1025px) {
+@media (max-width: 991px) {
+
+  .navbar-nav {
+    text-align: right;
+  }
 
   #title {
     text-align: center;
   }
 
-  .navbar-nav {
-    text-align: right;
+  .big-heading {
+    font-size: 2.3rem;
+  }
+
+  #title .download-btn {
+    margin: 5%;
   }
 
   .main-img {
     position: static;
     transform: rotate(0);
   }
+
+  .testimonial-title {
+    font-size: 1.5rem;
+  }
+
 }
